@@ -11,7 +11,7 @@ public class WordList {
 
     /*Kelime listesini döndüren bu fonksiyonda parametre olarak dosyaların path'ini aldım
       Dosyadan tüm satırları Stream olarak okudum
-    * */
+     */
     public static List<String> readFile(String fileName) {
 
         List<String> words = new ArrayList<>();
