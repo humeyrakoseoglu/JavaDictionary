@@ -5,12 +5,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 public class WordList {
-    //Metin belgelerindeki kelime listelerini okuyacak bir sınıf oluşturuldu
+    //Metin belgelerindeki kelime listelerini okuyacak bir sinif olusturuldu
     List<String> getTurkishWords = readFile("src/tureng.txt");
     List<String> getEnglishWords = readFile("src/engtur.txt");
 
-    /*Kelime listesini döndüren bu fonksiyonda parametre olarak dosyaların path'ini alındı
-      Dosyadan tüm satırlar Stream olarak okundu
+    /*Kelime listesini donduren bu fonksiyonda parametre olarak dosyalarin path'i alindi
+      Dosyadan tüm satirlar Stream olarak okundu
      */
     public static List<String> readFile(String fileName) {
 
@@ -24,6 +24,5 @@ public class WordList {
         }
         return words;
     }
-
 
 }

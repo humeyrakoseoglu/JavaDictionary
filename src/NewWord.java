@@ -6,12 +6,12 @@ import java.util.List;
 public class NewWord {
 
     public static void addNewWord(String newWord, String fileName, List<String> wordlist) throws IOException {
-        // FileWriter, BufferedWriter ile sarılır ve kelime yeni bir satırda dosyaya yazılır.
+        // FileWriter, BufferedWriter ile sarilir ve sozluge eklenen kelime yeni bir satirda dosyaya yazilir
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileName, true))) {
             writer.write(newWord);
 
          /*
-        //Dosyadaki tüm kelimeleri oku ve yeniden sırala
+        //Dosyadaki tum kelimeleri oku ve yeniden sirala
         wordlist = Files.lines(Paths.get(dosyaAdi))
                 .filter(w -> Boolean.parseBoolean(w.split("/")[0]))
                 .map(w -> w.split("/")[0])
