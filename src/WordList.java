@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 public class WordList {
     //Metin belgelerindeki kelime listelerini okuyacak bir sinif olusturuldu
-    List<String> getTurkishWords = readFile("src/tureng.txt");
-    List<String> getEnglishWords = readFile("src/engtur.txt");
+    List<String> getTurkishWords = readFile("JavaDictionary/src/tureng.txt");
+    List<String> getEnglishWords = readFile("JavaDictionary/src/engtur.txt");
 
     /*Kelime listesini donduren bu fonksiyonda parametre olarak dosyalarin path'i alindi
       Dosyadan tüm satirlar Stream olarak okundu
@@ -24,5 +24,4 @@ public class WordList {
         }
         return words;
     }
-
 }

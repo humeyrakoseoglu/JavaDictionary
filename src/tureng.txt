@@ -1,5 +1,4 @@
-﻿-/
-aç/hungry
+﻿aç/hungry
 açığa vurmak, ortaya çıkarmak/to reveal
 açık/open
 açık sözlü/open
@@ -1314,11 +1313,11 @@ süt/milk
 şifalı ot-bitki/herb
 şiir/poem
 şikayet etmek/to complain
-şimd,/present
+şimdi/present
 şimdi/current
 şimdi/currently (now)
 şimdi/now
-şimdi/press
+şimdi/present
 şimdilerde/nowadays
 şirket/company
 şişe/bottle
@@ -1349,7 +1348,7 @@ tamir etmek/to repair
 tanıdık/acquaintance
 tanımak/to recognize
 tanımlamak, anlatmak/to describe
-tanınmış/well-knovn
+tanınmış/well-known
 tanıtmak, tanıştırmak/to introduce
 tansiyon/blood-pressure
 taraf/side
